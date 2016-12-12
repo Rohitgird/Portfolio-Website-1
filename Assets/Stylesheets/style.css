@@ -1,0 +1,325 @@
+@font-face {
+  font-family: Gotham;
+  src: url(/../Fonts/Gotham-Medium.TTF);
+  font-family: Playlist;
+  src: url(/../Fonts/Playlist-Script.otf); }
+@-webkit-keyframes line {
+  0% {
+    width: 0%;
+    left: 0%; }
+  50% {
+    left: 0%;
+    width: 100%; }
+  100% {
+    left: 125%;
+    width: 0%; } }
+@keyframes line {
+  0% {
+    width: 0%;
+    left: 0%; }
+  50% {
+    left: 0%;
+    width: 100%; }
+  100% {
+    left: 125%;
+    width: 0%; } }
+@-webkit-keyframes decorationLine {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%;
+    left: 0%; } }
+@keyframes decorationLine {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%;
+    left: 0%; } }
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Gotham; }
+
+.left-fixed-navbar {
+  background-color: #3FA1FF;
+  width: 12px;
+  height: 100vh;
+  position: relative;
+  z-index: 2; }
+
+.top-scroll-navbar {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2; }
+
+#RohitG-Logo {
+  width: 130px;
+  height: 80px;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+  top: 4px; }
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 58px;
+  left: 120px; }
+
+ul li {
+  color: #3FA1FF;
+  float: left;
+  margin-right: 30px;
+  font-size: 16px;
+  position: relative;
+  top: 30px;
+  font-family: Gotham; }
+
+#Full-Screen-Logo {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  right: 35px;
+  top: 30px; }
+
+.left-col-about {
+  width: 50%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  padding-left: 80px; }
+
+.intro-section-divider {
+  background-color: #3FA1FF;
+  height: 55vh;
+  width: 3px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-top: 135px;
+  z-index: 5; }
+
+#btn {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 30px;
+  opacity: 0; }
+
+.right-col-about {
+  width: 50%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -3;
+  text-align: center; }
+
+.left-col-about #about-heading {
+  color: #3FA1FF;
+  position: relative;
+  top: 100px;
+  left: 30px;
+  font-size: 28px; }
+
+.left-col-about .heading-styler {
+  width: 280px;
+  height: 45px;
+  position: relative;
+  bottom: 25px;
+  left: 45px;
+  background-color: #F8F8F8;
+  z-index: -3; }
+
+.about-greeting-text {
+  position: relative;
+  display: inline-block;
+  top: 90px;
+  left: 90px;
+  margin: 0;
+  color: #646464; }
+
+.about-description-intro {
+  position: relative;
+  top: 120px;
+  left: 45px;
+  color: #757272;
+  display: inline-block;
+  width: 100%;
+  height: 400px; }
+
+.about-description-intro p#script-text {
+  font-family: Playlist;
+  display: inline-block;
+  font-size: 18px; }
+
+.about-description-intro .big-letter-intro {
+  font-family: Gotham;
+  display: inline-block;
+  font-weight: bold;
+  color: #414141;
+  font-size: 98px;
+  position: relative;
+  left: 30px;
+  top: 30px; }
+
+.about-description-group {
+  position: relative;
+  left: 150px;
+  bottom: 85px;
+  width: 30%; }
+
+.about-description-group p {
+  position: relative;
+  text-align: left;
+  left: 10px;
+  font-size: 10px;
+  top: 5px; }
+
+.ball-intro-design {
+  width: 50px;
+  height: 50px;
+  background-color: #3FA1FF;
+  border-radius: 50%;
+  position: relative;
+  left: 300px;
+  bottom: 45px; }
+
+.rectangle-intro-design {
+  width: 60%;
+  height: 25px;
+  background-color: #3FA1FF;
+  position: relative;
+  left: 55px; }
+
+.right-intro-heading {
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  top: 230px;
+  width: 90%;
+  font-size: 20px;
+  z-index: 1; }
+
+.right-intro-heading p {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+.page-number {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  font-size: 34px;
+  right: 95px;
+  bottom: 10px;
+  letter-spacing: 11px;
+  font-weight: bold;
+  color: #414141;
+  z-index: 1; }
+
+.page-number p {
+  display: inline-block; }
+
+.page-number-fancy-rectangle {
+  width: 70px;
+  height: 5px;
+  background-color: #F8F8F8;
+  position: absolute;
+  bottom: 45px;
+  left: 65px;
+  display: inline-block;
+  background-color: #414141; }
+
+.hello-inner {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 0%;
+  height: 35px;
+  background-color: #807d7d;
+  z-index: 2;
+  bottom: 28px;
+  -webkit-animation-name: line;
+          animation-name: line;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in; }
+
+.aInner {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 0%;
+  height: 85px;
+  background-color: #2f2f2f;
+  z-index: 2;
+  bottom: 98px;
+  visibility: visible;
+  -webkit-animation-name: line;
+          animation-name: line;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+
+.rectangle-intro-design-container {
+  width: 300px;
+  height: 30px;
+  position: relative;
+  left: 150px;
+  overflow: hidden; }
+
+.rectangle-intro-design {
+  background-color: #3FA1FF;
+  position: relative;
+  left: 0px;
+  display: inline-block;
+  width: 0%;
+  height: 30px;
+  -webkit-animation-name: decorationLine;
+          animation-name: decorationLine;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
+
+.number-inner {
+  background-color: #2f2f2f;
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  width: 0%;
+  height: 30px;
+  bottom: 40px;
+  -webkit-animation-name: line;
+          animation-name: line;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+  z-index: 2;
+  float: right; }

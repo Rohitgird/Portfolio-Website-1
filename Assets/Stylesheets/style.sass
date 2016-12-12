@@ -1,0 +1,315 @@
+$white : #FFFFFF
+$accent : #3FA1FF
+$dark-black : #414141
+$light-grey : #F8F8F8
+$text : #646464
+$text-script : #757272
+$text-line : #807d7d
+$dark-text-line : #2f2f2f
+
+@font-face
+    font-family: Gotham
+    src: url(/../Fonts/Gotham-Medium.TTF)
+
+    font-family: Playlist
+    src: url(/../Fonts/Playlist-Script.otf)
+
+@keyframes line
+    0%
+        width: 0%
+        left: 0%
+
+    50%
+        left: 0%
+        width: 100%
+
+
+    100%
+        left: 125%
+        width: 0%
+
+@keyframes decorationLine
+    0%
+        width: 0%
+
+
+    100%
+        width: 100%
+        left: 0%
+
+
+body
+    padding: 0
+    margin: 0
+    font-family: Gotham
+
+
+.left-fixed-navbar
+    background-color: $accent
+    width: 12px
+    height: 100vh
+    position: relative
+    z-index: 2
+
+.top-scroll-navbar
+    height: 100px
+    // background-color: pink
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -2
+
+#RohitG-Logo
+    width: 130px
+    height: 80px
+    position: relative
+    left: 30px
+    bottom: 10px
+    top: 4px
+
+ul
+    list-style-type: none
+    display: inline-block
+    margin: 0
+    padding: 0
+    position: relative
+    bottom: 58px
+    left: 120px
+
+
+ul li
+    color: $accent
+    float: left
+    margin-right: 30px
+    font-size: 16px
+    position: relative
+    top: 30px
+    font-family: Gotham
+
+#Full-Screen-Logo
+    position: absolute
+    right: 0
+    width: 30px
+    right: 35px
+    top: 30px
+
+.left-col-about
+    width: 50%
+    min-height: 100vh
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -3
+    padding-left: 80px
+
+.intro-section-divider
+    background-color: $accent
+    height: 55vh
+    width: 3px
+    position: absolute
+    left: 50%
+    top: 0
+    margin-top: 135px
+    z-index: 5
+
+#btn
+    position: absolute
+    top: 20px
+    right: 0
+    padding: 30px
+    opacity: 0
+
+.right-col-about
+    width: 50%
+    // background-color: orange
+    min-height: 100vh
+    position: absolute
+    top: 0
+    right: 0
+    z-index: -3
+    text-align: center
+
+.left-col-about #about-heading
+    color: $accent
+    position: relative
+    top: 100px
+    left: 30px
+    font-size: 28px
+
+.left-col-about .heading-styler
+    width: 280px
+    height: 45px
+    position: relative
+    bottom: 25px
+    left: 45px
+    background-color: $light-grey
+    z-index: -3
+
+.about-greeting-text
+    position: relative
+    display: inline-block
+    top: 90px
+    left: 90px
+    margin: 0
+    color: $text
+
+.about-description-intro
+    position: relative
+    top: 120px
+    left: 45px
+    color: $text-script
+    display: inline-block
+    width: 100%
+    height: 400px
+
+.about-description-intro p#script-text
+    font-family: Playlist
+    display: inline-block
+    font-size: 18px
+
+.about-description-intro .big-letter-intro
+    font-family: Gotham
+    display: inline-block
+    font-weight: bold
+    color: $dark-black
+    font-size: 98px
+    position: relative
+    left: 30px
+    top: 30px
+
+.about-description-group
+    position: relative
+    left: 150px
+    bottom: 85px
+    width: 30%
+
+.about-description-group p
+    position: relative
+    text-align: left
+    left: 10px
+    font-size: 10px
+    top: 5px
+
+.ball-intro-design
+    width: 50px
+    height: 50px
+    background-color: $accent
+    border-radius: 50%
+    position: relative
+    left: 300px
+    bottom: 45px
+
+.rectangle-intro-design
+    width: 60%
+    height: 25px
+    background-color: $accent
+    position: relative
+    left: 55px
+
+
+.right-intro-heading
+    text-align: center
+    margin: 0
+    display: inline-block
+    position: relative
+    top: 230px
+    width: 90%
+    font-size: 20px
+    z-index: 1
+
+.right-intro-heading p
+    display: inline-block
+    margin: 0
+    padding: 0
+
+.page-number
+    position: absolute
+    display: inline-block
+    bottom: 0
+    right: 0
+    font-size: 34px
+    right: 95px
+    bottom: 10px
+    letter-spacing: 11px
+    font-weight: bold
+    color: $dark-black
+    z-index: 1
+
+.page-number p
+    display: inline-block
+
+.page-number-fancy-rectangle
+    width: 70px
+    height: 5px
+    background-color: $light-grey
+    position: absolute
+    bottom: 45px
+    left: 65px
+    display: inline-block
+    background-color: $dark-black
+
+.hello-inner
+    position: relative
+    display: inline-block
+    vertical-align: top
+    width: 0%
+    height: 35px
+    background-color: $text-line
+    z-index: 2
+    bottom: 28px
+    animation-name: line
+    animation-fill-mode: none
+    animation-duration: 1.2s
+    animation-timing-function: ease-in
+
+.aInner
+    position: relative
+    display: inline-block
+    vertical-align: top
+    width: 0%
+    height: 85px
+    background-color: $dark-text-line
+    z-index: 2
+    bottom: 98px
+    visibility: visible
+    animation-name: line
+    animation-duration: 1.2s
+    animation-timing-function: ease-in
+    animation-fill-mode: none
+    animation-delay: 0.4s
+
+.rectangle-intro-design-container
+    width: 300px
+    height: 30px
+    position: relative
+    left: 150px
+    overflow: hidden
+
+.rectangle-intro-design
+    background-color: $accent
+    position: relative
+    left: 0px
+    display: inline-block
+    width: 0%
+    height: 30px
+    animation-name: decorationLine
+    animation-duration: 0.7s
+    animation-timing-function: ease-in
+    animation-delay: 0.7s
+    animation-fill-mode: forwards
+
+.number-inner
+    background-color: $dark-text-line
+    position: absolute
+    display: inline-block
+    left: 0px
+    width: 0%
+    height: 30px
+    bottom: 40px
+    animation-name: line
+    animation-duration: 0.5s
+    animation-timing-function: ease-in
+    animation-delay: 0.9s
+    z-index: 2
+    float: right
