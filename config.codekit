@@ -35,6 +35,17 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/Assets\/Scripts\/jquery.pagepiling.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Assets\/Scripts\/jquery.pagepiling.min.js",
+		"outputAbbreviatedPath": "\/Assets\/Scripts\/min\/jquery.pagepiling.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/Assets\/Scripts\/min\/index-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -45,6 +56,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/Assets\/Stylesheets\/jquery.pagepiling.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Assets\/Stylesheets\/jquery.pagepiling.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/Assets\/Stylesheets\/style.css": {
 		"fileType": 16,

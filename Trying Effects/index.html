@@ -8,72 +8,16 @@
 
     <style>
 
-    @keyframes line {
-        0% {
-            width: 0%;
+        .masking {
+            background-color: blue;
+            background-clip: border-box;
+            color: transparent;
         }
 
-
-        50% {
-            left: 0%;
-            width: 100%;
-        }
-
-        100% {
-            left: 125%;
-            width: 0%;
-        }
-    }
-        .outer {
-            height: 20px;
-            display: inline-block;
-            position: relative;
-            z-index: 1;
-            top: 30px;
-        }
-
-        .outer p {
-            margin: 0;
-            padding: 0;
-            display: inline-block;
-        }
-
-        .inner {
-            position: relative;
-            display: inline-block;
-            vertical-align: top;
-            width: 0%;
-            height: 20px;
-            background-color: orange;
-            z-index: 2;
-            bottom: 19px;
-            animation-name: line;
-            animation-duration: 1s;
-            animation-timing-function: ease-in;
-
-        }
     </style>
 
 </head>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
- crossorigin="anonymous"></script>
-
 <body>
-    <span class="outer"><p>Welcome You!</p><span class="inner"></span></span>
-
-    <script>
-        $(document).ready(function() {
-            $('.outer p').css({
-                'visibility' : 'hidden'
-            });
-            function show_text() {
-                $('.outer p').css({
-                    'visibility' : 'visible'
-                });
-            }
-
-            setInterval(show_text, 500);
-        });
-    </script>
+    <p class="masking">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, doloribus.</p>
 </body>
 </html>

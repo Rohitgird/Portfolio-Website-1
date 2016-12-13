@@ -5,51 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <link rel="stylesheet" href="Assets/Stylesheets/jquery.pagepiling.min.css">
     <link rel="stylesheet" href="Assets/Stylesheets/style.css">
 </head>
 <body>
-    <div class="left-fixed-navbar"></div>
-    <div class="top-scroll-navbar">
-        <img src="Assets/Img/RohitGirdharLogo.svg" alt="Rohit Girdhar" id="RohitG-Logo">
-        <ul>
-            <li>ABOUT</li>
-            <li>WORK</li>
-            <li>CONTACT</li>
-        </ul>
-        <img src="Assets/Img/FullScreenLogo.svg" alt="Full Screen" id="Full-Screen-Logo">
-    </div>
-
-    <div class="left-col-about">
-        <h1 id="about-heading">
-            ABOUT MYSELF
-        <div class="heading-styler"></div>
-        <span class="about-inner"></span>
-        </h1>
-
-        <h2 class="about-greeting-text">HELLO, HOLA, NAMASTE<span class="hello-inner"></span></h2>
-        <div class="about-description-intro">
-            <p id="script-text">I'm ... <span class="big-letter-intro">A<span class="aInner"></span></span>
-            </p>
-            <div class="about-description-group">
-                <p>WEB DEVELOPER BY CHOICE<span class="little-text-inner"></span></p>
-                <P>GRAPHIC DESIGNER BY PASSION<span class="little-text-inner"></span></P>
-                <P>MUSIC LOVER BY NATURE<span class="little-text-inner"></span></P>
+<div id="pagepiling">
+    <section id="one" class=" section">
+            <div class="left-fixed-navbar"></div>
+            <div class="top-scroll-navbar">
+                <img src="Assets/Img/RohitGirdharLogo.svg" alt="Rohit Girdhar" id="RohitG-Logo">
+                <ul>
+                    <li>ABOUT</li>
+                    <li>WORK</li>
+                    <li>CONTACT</li>
+                </ul>
+                <img src="Assets/Img/FullScreenLogo.svg" alt="Full Screen" id="Full-Screen-Logo">
+                <p id="imgText">Surprise</p>
             </div>
-        </div>
 
-        <div class="ball-intro-design"></div>
-        <div class="rectangle-intro-design-container">
-            <span class="rectangle-intro-design"></span>
-        </div>
-    </div>
-    <div class="right-col-about">
-        <h2 class="right-intro-heading">I'M LOOKING FOR AN INTERNSHIP THIS SUMMER</h2>
-        <div class="page-number"><p>01</p> <span class="number-inner"></span><div class="page-number-fancy-rectangle"></div></div>
-    </div>
-    <button id="btn">Click Me</button>
+            <div class="left-col-about">
+                <h1 id="about-heading">
+                    ABOUT MYSELF
+                <div class="heading-styler"></div>
+                <span class="about-inner"></span>
+                </h1>
+
+                <h2 class="about-greeting-text">HELLO, HOLA, NAMASTE<span class="hello-inner"></span></h2>
+                <div class="about-description-intro">
+                    <p id="script-text">I'm ... <span class="big-letter-intro">A<span class="aInner"></span></span>
+                    </p>
+                    <div class="about-description-group">
+                        <p>WEB DEVELOPER BY CHOICE<span class="little-text-inner"></span></p>
+                        <P>GRAPHIC DESIGNER BY PASSION<span class="little-text-inner"></span></P>
+                        <P>MUSIC LOVER BY NATURE<span class="little-text-inner"></span></P>
+                    </div>
+                </div>
+
+                <div class="ball-intro-design"></div>
+                <div class="rectangle-intro-design-container">
+                    <span class="rectangle-intro-design"></span>
+                </div>
+            </div>
+            <div class="right-col-about">
+                <h2 class="right-intro-heading">I'M LOOKING FOR AN INTERNSHIP THIS SUMMER</h2>
+                <div class="page-number"><p>01</p> <span class="number-inner"></span><div class="page-number-fancy-rectangle"></div></div>
+            </div>
+            <button id="btn">Click Me</button>
+    </section>
+
+
+
+
+    
+    <section id="two" class="section">
+        <div class="left-fixed-navbar"></div>
+        <div class="top-scroll-navbar">
+            <img src="Assets/Img/RohitGirdharLogo.svg" alt="Rohit Girdhar" id="RohitG-Logo">
+            <ul>
+                <li>ABOUT</li>
+                <li>WORK</li>
+                <li>CONTACT</li>
+            </ul>
+            <div class="page-number" id="numberTwo"><p>02</p> <span class="number-inner"></span><div class="page-number-fancy-rectangle"></div></div>
+    </section>
+</div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/3.0.2/screenfull.min.js"></script>
+    <script src="Assets/Scripts/jquery.pagepiling.min.js"></script>
     <script src="Assets/Scripts/index.js"></script>
 </body>
 </html>

@@ -38,7 +38,12 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: Gotham; }
+  font-family: Gotham;
+  font-smoothing: antialiased; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; }
 
 .left-fixed-navbar {
   background-color: #3FA1FF;
@@ -46,6 +51,9 @@ body {
   height: 100vh;
   position: relative;
   z-index: 2; }
+
+section#one {
+  background-color: #fff; }
 
 .top-scroll-navbar {
   height: 100px;
@@ -114,6 +122,16 @@ ul li {
   padding: 30px;
   opacity: 0; }
 
+#btn:hover {
+  cursor: pointer; }
+
+#imgText {
+  float: right;
+  position: relative;
+  font-size: 10px;
+  top: 60px;
+  right: 29px; }
+
 .right-col-about {
   width: 50%;
   min-height: 100vh;
@@ -154,12 +172,14 @@ ul li {
   color: #757272;
   display: inline-block;
   width: 100%;
-  height: 400px; }
+  height: 400px;
+  vertical-align: middle; }
 
 .about-description-intro p#script-text {
   font-family: Playlist;
   display: inline-block;
-  font-size: 18px; }
+  font-size: 18px;
+  vertical-align: baseline; }
 
 .about-description-intro .big-letter-intro {
   font-family: Gotham;
@@ -175,7 +195,8 @@ ul li {
   position: relative;
   left: 150px;
   bottom: 85px;
-  width: 30%; }
+  width: 30%;
+  vertical-align: middle; }
 
 .about-description-group p {
   position: relative;
@@ -259,27 +280,6 @@ ul li {
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in; }
 
-.aInner {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 0%;
-  height: 85px;
-  background-color: #2f2f2f;
-  z-index: 2;
-  bottom: 98px;
-  visibility: visible;
-  -webkit-animation-name: line;
-          animation-name: line;
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-fill-mode: none;
-          animation-fill-mode: none;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s; }
-
 .rectangle-intro-design-container {
   width: 300px;
   height: 30px;
@@ -323,3 +323,13 @@ ul li {
           animation-delay: 0.9s;
   z-index: 2;
   float: right; }
+
+section#two {
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100%; }
+
+#numberTwo {
+  position: relative;
+  float: right;
+  margin-top: 85vh; }

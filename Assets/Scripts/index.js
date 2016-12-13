@@ -25,3 +25,18 @@ document.getElementById('btn').addEventListener('click', () => {
         // Ignore or do something else
     }
 });
+
+
+
+$('#pagepiling').pagepiling({
+    onLeave: function(index, nextIndex, direction){
+        
+        if(index == 1 && direction =='down'){
+            console.log("Going to section 3!");
+        }
+
+        else if(index == 2 && direction == 'up'){
+            console.log("Going to section 1!");
+        }
+    }
+});
